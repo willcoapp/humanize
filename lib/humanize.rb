@@ -106,6 +106,8 @@ private
     if remainder == 1
       if (thousand = human_ary.last.to_s.strip) == 'mille' && locale == :fr
         return true
+      elsif thousand == 'mil' && locale == :es
+        return true
       elsif thousand == 'bin' && locale == :tr
         return true
       elsif thousand == 'min' && locale == :az

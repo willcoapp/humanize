@@ -28,8 +28,8 @@ module Humanize
       :negative => 'menos',
       :zero => 'cero',
       :point => 'punto',
-      :and => 'y',
-      :comma => ','
+      :and => '',
+      :comma => ''
     },
     :fr => {
       :group_by => 1_000,
